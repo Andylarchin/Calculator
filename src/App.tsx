@@ -1,10 +1,11 @@
 import React, {FC} from 'react';
 import './App.css';
+import Calculator from './components/calculatorBody/calculatorBody'
 
 let App : FC = () => {
   return (
     <div className="App">
-      <h1>Welcome to Andy Calculator</h1>
+      <Calculator/>
     </div>
   );
 }

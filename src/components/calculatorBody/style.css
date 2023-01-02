@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 6rem);
+    margin-top: 2rem;
+    grid-template-rows: minmax(7rem,auto) repeat(5,6rem);
+    align-content: center;
+    justify-content: center;
+}
+
+.space-two {
+    grid-column: span 2;
+}
+
+.heading {
+    grid-column: 1 / -1;
+    background-color: #32373B;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+    align-items: flex-end;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.container > button {
+    background-color: #f4d6cc;
+    border: 1px solid black;
+}
+
+.heading > div {
+    color: white;
+    font-size : 1.5em
+}
