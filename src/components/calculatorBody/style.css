@@ -33,7 +33,12 @@ body {
     border: 1px solid black;
 }
 
-.heading > div {
-    color: white;
-    font-size : 1.5em
+.previous-operand {
+  color: rgba(255, 255, 255, .75);
+  font-size: 1.5rem;
+}
+
+.current-operand {
+  color: white;
+  font-size: 2.0rem;
 }
